@@ -1,0 +1,23 @@
+{
+  "testRunner": "jest",
+  "runnerConfig": "e2e/config.json",
+  "configurations": {
+    "android.emu.debug": {
+        "binaryPath": "app.js",
+        "build":
+          "app.js",
+        "type": "android.emulator",
+        "device": {
+          "avdName": "dev"
+        }
+    },
+    "android.emu.release": {
+        "binaryPath": "app.js",
+        "build": "app.js",
+        "type": "android.emulator",
+        "device": {
+          "avdName": "dev"
+        }
+    }
+}
+}
